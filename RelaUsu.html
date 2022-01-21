@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>RelaUsu</title>
+		<meta charset="iso-8859-1"/>
+		<meta name="author" content="Bernardo Meyer">
+		<meta name="description" content="Login do CopaWhats">
+		<meta name="keywords" content="Comunicação empresarial, whatsapp">
+		<link rel="stylesheet" href="estilo.css">
+		<style>
+
+		</style>
+		<script src="BMy.js"></script>
+		<script>
+			function postFrm(){
+				var ret = true;
+				var usu = getInputVr("usuario").value;
+				var pwd = getInputVr("contato").value;
+				if( usu == "" || pwd == "" ){
+					alert("Preencha Usuário e Contato, por favor.");
+					ret = false;
+					}
+				return ret;
+				}
+		</script>
+	</head>
+	<body>
+	<center>		
+		<h1>RelaUsu</h1>
+		<form method="post" action="rela.php" onsubmit="return postFrm();">
+		<table width="300px">
+			<tr><td><label>Usuário<br>(Matrícula):</label></td><td><input type="text" name="usuario" id="usuario" size="10" maxlength="5"></td></tr>
+			<tr><td><label>Contato<br>(Matrícula):</label></td><td><input type="text" name="contato" id="contato" size="10" maxlength="5"></td></tr>
+			<tr>
+				<td></td>
+				<td><input type="hidden" name="tipo" id="tipo" size="10" value="r31c40"></td>
+			</tr>
+			<tr>
+				<td colspan=2 align=center>
+					<input type="submit" value="Contato">
+				</td>
+
+			</td></tr>
+		
+		</table>
+		</form>
+	</center>
+	</body>
+</html>
