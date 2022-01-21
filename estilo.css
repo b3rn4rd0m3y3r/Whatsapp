@@ -1,0 +1,12 @@
+BODY {
+	font-family: Franklin Gothic Medium, Verdana;
+	}
+H1 {
+	color: DarkOliveGreen;font-size: 88px;
+	}
+INPUT {border: solid 1px limegreen;font-size: 60px;margin: 4px;}
+INPUT[type=submit], INPUT.bot {background: forestgreen;color:white;}
+INPUT[type=submit] {margin-right: 6px;}
+LABEL {
+	color: darkGreen;font-weight:bold;font-size: 60px;
+	}

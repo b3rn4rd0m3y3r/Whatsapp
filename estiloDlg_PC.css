@@ -1,0 +1,46 @@
+	BODY {
+		font-family: Verdana;
+		
+		}
+	DIV#main {
+		height: 400px;
+		width: 360px;
+		}
+	DIV#send {
+		border: solid 1px limeGreen;
+		height: 30px;
+		width: 360px;
+		}
+	H3, H4 {
+		background: darkgreen;
+		color: white;
+		margin: 0px;
+		padding: 0px;
+		width: 360px;
+		}
+	H4 {
+		
+		}
+	INPUT.seta {
+		background: lime;
+		border: solid 1px Seagreen;
+		border-radius: 50%;
+		cursor: pointer;
+		height: 25px;
+		width: 25px;
+		}
+	INPUT#entry {
+		font-weight: bold;
+		height: 26px;
+		margin: 0px;
+		padding: 0px;
+		position: relative;
+		top: 0px;
+		width: 320px;
+		}
+	P.Apelido {
+		color: darkgreen;
+		font-size: 10px;
+		text-align: left;
+		width: 360px;
+		}
